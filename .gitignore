@@ -1,0 +1,4 @@
+*.wgt
+.DS_Store
+.playwright-mcp/
+.sign/

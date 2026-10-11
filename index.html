@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PlxTizen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login" class="screen" hidden>
+    <h1>PlxTizen</h1>
+    <p>On your phone or computer, open <b>plex.tv/link</b> and enter</p>
+    <div id="code">····</div>
+  </div>
+
+  <div id="app" class="screen" hidden>
+    <nav id="nav"></nav>
+    <main id="main"></main>
+  </div>
+
+  <div id="player" class="screen" hidden>
+    <video id="video"></video>
+    <div id="osd" hidden>
+      <div id="osd-title"></div>
+      <div class="track"><div id="bar"></div></div>
+      <div id="time"></div>
+    </div>
+  </div>
+
+  <div id="msg" class="screen" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
